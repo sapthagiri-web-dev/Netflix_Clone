@@ -1,0 +1,34 @@
+.nav {
+  position: fixed;
+
+  display: flex;
+  top: 0;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-between;
+  height: 38px;
+
+  z-index: 1;
+
+  /* animation */
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav__black {
+  background-color: black;
+}
+
+.nav__logo {
+  position: fixed;
+  left: 10px;
+  width: 85px;
+  object-fit: contain;
+}
+
+.sign__up {
+  position: fixed;
+  right: 10px;
+  width: 40px;
+  object-fit: contain;
+}
